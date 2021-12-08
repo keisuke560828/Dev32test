@@ -1,0 +1,446 @@
+/* ヘッダーロゴの配置 */
+
+.item-list{
+    width: 1200px;
+    margin: 0px auto;
+    align-items: center;
+}
+
+
+.item{
+    float: left;
+    margin: 10px auto 0px;
+}
+
+/* ナビゲーション */
+nav{
+    font-size: 21px;
+    text-align: right;
+    padding: 10px 10px 0px;
+    }
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    width: 10%;
+    min-width: 50px;
+    }
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+    }
+nav ul li.current a{
+    color: #F33135;
+    }
+nav ul li a:hover{
+    color: #E7DA66;
+    }
+
+/* メイン画像 */
+
+.site-title{
+    background-image: url(../img/mainbg.png);
+    width: 1200px;
+    height: 500px;
+    margin: 0px auto;   
+}
+
+.site-title-mainphrase{
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 170px;
+}
+
+.site-title-subphrase{
+    color: white;
+    font-size: 32px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+
+  
+/* 英語タイトル */
+.English-title {
+    margin: 60px auto 30px;
+    font-size: 24px;
+    text-align: center;
+}
+
+/* 日本語太文字 */
+h3{
+    text-align: center;
+    font-weight: bold;
+    margin: 120px auto 40px;
+}
+
+/* 日本語タイトル */
+h4{
+    margin: 21px auto 51px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: normal;
+}
+
+/* コンテンツ文章 */
+p{
+    font-size: 16px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.thema{
+    margin: 32px auto 32px;
+}
+
+.main-text-1{
+    margin: 60px auto 30px;
+}
+
+.main-text-2{
+    margin: 30px auto 30px;
+}
+
+
+/* アバウト */
+.flex-container {
+    display: flex;
+    width: 100%;
+    margin: 60px auto;
+    justify-content: center;
+}
+
+
+/* コース */
+  
+  /* たがい違い */
+  .courseBox {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+  }
+  .courseBox.hanten {
+    flex-direction: row-reverse;
+  }
+  
+  .imgBlock {
+    width: 50%;
+  }
+  
+  .imgBlock img {
+    width: 100%;
+  }
+  
+  .textBox {
+    width: 50%;
+    padding: 0px 120px 120px 50px;
+    box-sizing: border-box;
+  }
+  .textBox__title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .textBox__text {
+    width: 430px;
+    text-align: left;
+    font-size: 16px;
+    /* 行間作る */
+    line-height: 1.5;
+  }
+
+  .courseBox.hanten .textBox {
+    padding: 0px 50px 120px 120px;
+  }
+
+
+/* ニュース欄 */
+
+.wrapper{
+    max-width: 1020px;
+    margin: auto;
+}
+
+.works__list{
+    display: flex;
+    margin: 0 0 0;
+    list-style: none;
+}
+
+.works__item{
+    width: 33.333%;
+    margin: 0 15px 0;
+}
+
+.works__eyecatch{
+    width: 33.333%;
+    margin: 0 0 10px;
+}
+
+.works__contents{
+    padding: 0 0 30px;
+    text-align: left;
+}
+
+.works__contents.btn:hover{
+    background: #ffd61a;
+    color: black;
+}
+
+.works__days{
+    text-align: left;
+}
+
+.work__details{
+    text-align: left;
+}
+
+#Access{
+    padding-bottom: 60px;
+}
+
+/* アクセス */
+.map{
+    width: 1200px;
+    height: 450px;
+    margin: 60px auto;
+}
+
+.info {
+    width: 1200px;
+    margin: 0 auto 60px;
+  }
+  
+  .infoBox {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    width: 600px;
+    margin: 0 auto;
+    align-items: center;
+  }
+  .infoBox__title {
+    width: 30%;
+  }
+  
+  .infoBox__text {
+    width: 70%;
+    line-height: 1.6;
+  }
+
+
+/* コンタクト */
+.form-wrapper{
+   width: 640px;
+   margin: 70px auto 30px;
+}
+
+.form-inner{
+    display: flex;
+    flex-wrap: wrap;
+   /* 折り返し・横列にする */
+}
+
+.form-title{
+   width: 176px;
+   /* 240px-64px */
+   margin: 8px auto 8px;
+   text-align: left;
+}
+
+.form-item{
+   width: 400px;
+   margin: 0 auto;
+}
+
+.form-item-select{
+    width: 400px;
+    margin: 16px auto 0px;
+ }
+
+.form-item-detail{
+    width: 400px;
+    margin: 8px auto 0px;
+ }
+
+
+.form-parts{
+    box-sizing: border-box;
+    /* widthとpaddingを足して100％ */
+    width: 100%;
+    padding: 8px;
+    border: solid 1px;
+    font-size: 16px;
+}
+
+.btn{
+    display: block;
+    width: 300px;
+    margin: 30px auto 140px;
+    padding: 21px 0;
+    background-color: #ffd61a;
+    color: white;
+    font-size: 1,8rem;
+    text-align: center;
+}
+.btn:hover {
+    background: #ffd61a;
+    color: black;
+}
+
+
+/* フッター */
+.footer{
+    width: 1200px;
+    margin: 0px auto;
+    padding: 24px 0;
+    background-color: #707070;
+    color: white;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width:640px){
+/* スマホ対応から作成した場合min-width */
+
+/* ヘッダー */
+.item-list{
+    display: block;
+    height: 64px;
+}
+
+/* ロゴ */
+.item{
+    margin: 10px 10px;
+}
+
+nav{
+    display: none;
+}
+
+/* メインビジュアル */
+.site-title{
+    width: 640px;
+    height: 250px;
+    margin: 0px auto;
+}
+
+.site-title-mainphrase{
+    margin-bottom: 20px;
+    padding-top: 95px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.site-title-subphrase{
+    font-size: 16px;
+    text-align: center;
+}
+
+
+/* ナビゲーション（ハンバーガー） */
+    
+
+
+
+/* アバウト */
+
+.flex-container{
+    width: 640px;
+}
+
+.flex-item img{
+    width: 160px;
+}
+
+/*  コース */ 
+
+.courseBox{
+    display: block;
+}
+
+.imgBlock {
+    width: 50%;
+    height: 50%;
+  }
+  
+.imgBlock img {
+    width: 100%;
+  }
+  
+.textBox {
+    width: 50%;
+    box-sizing: border-box;
+  }
+  
+.textBox__title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    
+  }
+  
+.textBox__text {
+    width: 430px;
+    font-size: 16px;
+    /* 行間作る */
+    line-height: 1.5;
+    text-align: center;
+  }
+
+  /* ニュース */
+
+.wrapper{
+    width: 640px;
+    justify-content: center;
+}
+.works__list{
+    display: block;
+    justify-content: center;
+}
+
+
+
+/* アクセス */
+.map{
+    width: 50%;
+    height: 75%;
+}
+
+.info {
+    width: 600px;
+    margin: 0 auto 60px;
+  }
+  
+.infoBox {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    width: 300px;
+    margin: 0 auto;
+    align-items: center;
+  }
+.infoBox__title {
+    width: 30%;
+  }
+  
+.infoBox__text {
+    width: 70%;
+    line-height: 1.6;
+  }
+
+  /* フッター */
+.footer{
+    width: 640px;
+    margin: 0px auto;
+    padding: 24px 0;
+    background-color: #707070;
+    color: white;
+    text-align: center;
+}
